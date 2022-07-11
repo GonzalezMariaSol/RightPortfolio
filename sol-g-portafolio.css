@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(246, 3, 3);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 135px; 
+    box-shadow: 0px 0px 10px 0px;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 58em; /*61% o 1180px*/;
+    gap: 60px;
+    align-items: center;
+    height: 100px;
+}
+
+.navOption, #naVioleta{
+    background-color:rgb(255, 255, 255);            /*idk how to make the text be*/
+    font-size: 32px;                                    /*align inside the box i did it by eye*/
+    border-radius: 0.7em;
+    height: 60px;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 0.7em;
+    /* border-color: black;        why this 2 doesn't work?
+       text-align: center; */
+}
+
+a{
+    text-decoration: none;
+}
+
+#naVioleta{
+    background-color: blueviolet;
+    color: white;
+}
+
+.presentacion{
+    background-color: rgb(40, 86, 115);
+    padding-top: 1px;
+    height:55em;
+}
+
+.prueba{
+    background-color: rgb(174, 255, 0);
+    width: 60em;
+    height: 28em;
+    margin-left: 44px;
+    margin-top: 16em;
+}
+
+.hi, h1, .webDevoloper, .hago{
+    display: flex;
+    background-color: coral;
+    width: 900px;
+    height: 90px;
+    align-items: center;
+    margin-top: -0.4em;
+}
+
+img{
+    background-color: black;
+    margin-left: 69em;
+    margin-top: -30em;
+}
+
