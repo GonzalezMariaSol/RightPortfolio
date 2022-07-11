@@ -1,34 +1,38 @@
 body{
-    background-color: rgb(246, 3, 3);
+    background-color: rgb(255, 0, 0);
     margin: 0;
     padding: 0;
 }
 
+/*NAV BAR TOP*/
+
 header{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: white /*rgb(228, 83, 83)*/;
     height: 135px; 
-    box-shadow: 0px 0px 10px 0px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 10px 10px rgb(222, 222, 222);
 }
 
 nav{
-    background-color: rgb(255, 255, 255);
+    background-color:white /*rgb(255, 184, 42)*/;
     display: flex;
-    margin-left: 58em; /*61% o 1180px*/;
+    margin-left: 58em;
     gap: 60px;
     align-items: center;
     height: 100px;
 }
 
 .navOption, #naVioleta{
-    background-color:rgb(255, 255, 255);            /*idk how to make the text be*/
+    background-color:white/*rgb(115, 139, 51)*/;            /*idk how to make the text be*/
     font-size: 32px;                                    /*align inside the box i did it by eye*/
     border-radius: 0.7em;
     height: 60px;
     padding-left: 0.8em;
     padding-right: 0.8em;
-    padding-top: 0.7em;
+    
     /* border-color: black;        why this 2 doesn't work?
        text-align: center; */
 }
@@ -38,36 +42,140 @@ a{
 }
 
 #naVioleta{
-    background-color: blueviolet;
+    background-color: rgb(161, 94, 224);
     color: white;
+    border-radius: 30px;
+
 }
 
+/*INTRODUCTION OF MYSELF*/
+
 .presentacion{
-    background-color: rgb(40, 86, 115);
+    background-color: rgb(255, 255, 255)/*GRIS*/;
     padding-top: 1px;
-    height:55em;
+    height:75em;
+
 }
 
 .prueba{
-    background-color: rgb(174, 255, 0);
+    background-color: rgb(255, 255, 255)/*GRIS*/;
     width: 60em;
     height: 28em;
-    margin-left: 44px;
-    margin-top: 16em;
+    margin-left: 90px;
+    margin-top: 25em;
 }
 
 .hi, h1, .webDevoloper, .hago{
     display: flex;
-    background-color: coral;
+    background-color: rgb(255, 255, 255)/*GRIS*/;
     width: 900px;
     height: 90px;
     align-items: center;
     margin-top: -0.4em;
+    margin-left: auto;              /*for some reason it centered my text*/
+    margin-right: auto;             /*instead to use text-align:center*/
 }
 
 img{
-    background-color: black;
+    background-color:rgb(255, 255, 255); /*GRIS*/
     margin-left: 69em;
     margin-top: -30em;
 }
 
+.hago{
+    background-color:rgb(161, 94, 224);
+    width: 8em;
+    border-radius: 30px;
+    height: 2.5em;
+    padding-left: 3em;
+    margin-left: 3em;
+    color: white;
+}
+
+/*knowdlege section -middle-*/
+
+.conocimientos{
+    background-color:rgb(244, 244, 2442);
+    display: flex;
+    flex-direction: column;
+    margin-top: -4em;
+    height: 90em;
+    text-align: center;         /*why text align it does work in this situation?*/
+
+}
+
+.tarjetas{
+    background-color: rgb(244, 244, 244); /*GRIS*/
+    display: flex;
+    flex-direction: column;
+    height: 35em;
+    width: 40em;
+    margin-left: 7.5em;
+    padding-top: 5em;
+}
+
+#lorem{
+    background-color: rgb(244, 244, 244); /*GRIS*/
+    display: flex;
+    width: 30em;
+    justify-content: center;
+    margin-left: 8em;
+    margin-top: -1em;
+}
+
+.linea1{
+    background-color:rgb(244, 244, 244); /*GRIS*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+.tarjeta1{
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+}
+
+.linea2{
+    background-color:rgb(244, 244, 244); /*GRIS*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tarjeta2{
+    background-color:white;
+    width: 10em;
+    height: 10em;
+    border-radius: 5%;
+    margin-top: 1em;
+}
+
+.tarjetas, .primerLinea .segundaLinea{
+    font-size: 35px;
+}
+
+/*QUOTE SECCTION*/
+.frase{
+    background-color: rgb(161, 94, 224);
+    margin-top: -2.2em;
+    height: 45em;
+    padding-left: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote{
+    background-color: rgb(161, 94, 224);
+    margin-left: -4em;
+    width: 25em;
+    color: white;
+}
+.someone{
+    background-color: rgb(161, 94, 224);
+    width: 5em;
+    margin-left: 6em;
+    color: white
+}
