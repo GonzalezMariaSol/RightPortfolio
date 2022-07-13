@@ -8,16 +8,17 @@ body{
 
 header{
     display: flex;
-    background-color: white /*rgb(228, 83, 83)*/;
+    background-color:white;
     height: 135px; 
     align-items: center;
     position: fixed;
     width: 100%;
     box-shadow: 0px 0px 10px 10px rgb(222, 222, 222);
+    z-index: 1;
 }
 
 nav{
-    background-color:white /*rgb(255, 184, 42)*/;
+    background-color:white;
     display: flex;
     margin-left: 58em;
     gap: 60px;
@@ -26,7 +27,7 @@ nav{
 }
 
 .navOption, #naVioleta{
-    background-color:white/*rgb(115, 139, 51)*/;            /*idk how to make the text be*/
+    background-color:white;            /*idk how to make the text be*/
     font-size: 32px;                                    /*align inside the box i did it by eye*/
     border-radius: 0.7em;
     height: 60px;
@@ -259,17 +260,73 @@ img{
 
 /*CONTACTO - FORMULARIO*/
 .fondoContacto{
-    background-color: rgb(81, 73, 73);
+    background-color: rgb(244, 244, 244); /*GRIS*/
     height: 75em;
     width: 100%;
+    position: relative
 }
 
-.contacto{
-    background-color: blue;
+.informacion{
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(222, 222, 222);
     width: 100em;
-    height: 50em;
+    height: 60em;
     border-radius: 5%;
     margin-left: 8.5em;
-    
-
+    top: 10em;
+    position: absolute;
 }
+
+.redes{
+    background-color: transparent;
+    width: 50%;
+    height: 55em;
+    padding-top: 2em;
+    border-radius: 5%;
+    margin-left:3em;
+}
+
+#contactoTexto{
+    background-color: white;
+    width: 20em;
+    text-align: left;
+}
+
+ul{
+    padding-left: 6em;
+    padding-top:5em;
+    line-height: 3em;
+}
+
+.link{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    width: 5em;
+    color: black;
+}
+
+/*CONTACT FORM*/
+.contacto{
+    background-color: transparent;
+    width: 50%;
+    margin-left:50em;
+    margin-top: -55em;
+    text-align: center;
+    height: 50em;
+}
+
+form{
+    text-align: left;
+    font-size:30px;
+}
+
+input:hover{
+    border-width: 0.2em;
+    border-radius: 5%;
+}
+
+
+
